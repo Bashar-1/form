@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: light;
+    src: url(../fonts/Cairo-Light.ttf);
+}
+@font-face {
+    font-family: med;
+    src: url(../fonts/Cairo-Medium.ttf);
+}
+@font-face {
+    font-family: reg;
+    src: url(../fonts/Cairo-Regular.ttf);
+}
+body{
+    background: linear-gradient(23deg, rgba(239,132,41,1) 0%, rgba(239,41,94,1) 100%);
+    font-family: med;
+}
+.container {
+    width: 85%;
+    margin: auto;
+}
+a {
+    text-decoration: none;
+}
+/* start  */
+.section1 {
+    padding: 142px 113px;
+}
+.section1 .container .bg {
+    
+    width: 1374px;
+    height: 917px;
+    overflow: hidden;
+    border-radius: 16px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.section1 .container .bg .form {
+    margin-left: 66.5%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    height: 917px;
+    width: 464px;
+    padding: 99px 67px 34px 69px;
+    background-color: rgba(112, 112, 112, 0.7);
+}
+
+.section1 .container .bg .form form .title {
+    text-align: center;
+    font-size: 25px;
+    font-weight: lighter;
+    font-family: light;
+    color: white;
+    margin-bottom: 60px;
+}
+
+
+
+.section1 .container .bg .form form .content h1 {
+    font-size: 24px;
+    font-family: light;
+    font-weight: lighter;
+    color: white;
+    text-align: center;
+}
+.section1 .container .bg .form form .content p {
+    text-align: center;
+    color: white;
+}
+
+.section1 .container .bg .form form .content p a {
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+}
+.section1 .container .bg .form form .content .input {
+    display: flex;
+    flex-wrap: wrap;
+}
+.section1 .container .bg .form form .content .input label {
+    width: 100%;
+    color: white;
+}
+.section1 .container .bg .form form .content .input input {
+    width: 100%;
+    padding: 17px 10px;
+    border: #C4C4C4 solid 1px;
+    border-radius: 7px;
+
+}
+.section1 .container .bg .form form .content .input-password {
+    margin-bottom: 15px;
+}
+
+.section1 .container .bg .form form .content .input-password label {
+    width: 100%;
+    color: white;
+}
+
+.section1 .container .bg .form form .content .input-password input {
+    width: 100%;
+    padding: 17px 10px;
+    border: #C4C4C4 solid 1px;
+    border-radius: 7px;
+    position: relative;
+}
+
+.section1 .container .bg .form form .content .check-box {
+    display: flex;
+    align-items: center;
+}
+.section1 .container .bg .form form .content .check-box input {
+    display: flex;
+    width: 5%;
+    margin-right: 5px;
+}
+.section1 .container .bg .form form .content .check-box label {
+    color: white;
+}
+.section1 .container .bg .form form .content .btn button {
+    margin-top: 16px;
+    margin-bottom: 22px;
+    width: 100%;
+    padding: 14px 133px;
+    border-radius: 7px;
+    background-color: #EF295E;
+    border: #EF295E solid 1px;
+    cursor: pointer;
+    color: white;
+    font-family: reg;
+    font-weight: bolder;
+    transition: all 0.3s;
+}
+
+.section1 .container .bg .form form .content .btn button:hover {
+    background-color: #850124;
+    border: #850124 solid 1px;
+    color: #C4C4C4;
+}
+
+.section1 .container .bg .form form .content .p {
+    text-align: center;
+    font-size: 10px;
+    width: 58.5%;
+    margin: auto;
+    padding-bottom: 66px;
+}
+
+.section1 .container .bg .form form .last-content {
+    display: flex;
+    justify-content: space-around;
+}
+hr {
+    margin-bottom: 14px;
+}
+.section1 .container .bg .form form .last-content h5 {
+    font-size: 10px;
+    color: #939393;
+}
+
+
+
+
+/* end  */
